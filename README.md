@@ -109,10 +109,12 @@ Separate different tests into different files to make them well separated, keep 
 
 ### 2. Organize your tests with ***describe*** and ***test/it***
 Use ***describe*** to create blocks that group several related tests together and use ***test*** or ***it*** to execute individual test cases. 
+
 <img width="470" alt="image" src="https://user-images.githubusercontent.com/9147189/223621256-868a00f7-d587-431e-abda-5b1a72b7e3f8.png">
 
 ### 3. Setup and reset commons in ***beforeEach/afterEach*** hooks
 Use ***beforeEach*** and ***afterEach*** hook to set up common code for test cases and reset all mocks after your tests.
+
 <img width="464" alt="image" src="https://user-images.githubusercontent.com/9147189/223621454-d5c8ba08-2206-4d08-a5f5-aaf47fd1ae31.png">
 
 ### 4. Use the three A’s pattern 
@@ -120,22 +122,27 @@ Arrange/Act/Assert (AAA) is a pattern for organizing unit tests. It breaks tests
 * **Arrange**: Perform the setup and initialization required for the test.
 * **Act**: Take action(s) required for the test.
 * **Assert**: Verify the outcome(s) of the test.
+
 <img width="467" alt="image" src="https://user-images.githubusercontent.com/9147189/223621695-e0744157-fe45-4998-bdfc-5564bf53c754.png">
 
 ### 5. Also test what should not happen
 When writing tests, a common practice is to test what a function should do. But you should not only test the obvious but also test the edge cases and negative cases.
+
 <img width="396" alt="image" src="https://user-images.githubusercontent.com/9147189/223621830-50b5f186-0b62-4fbe-835e-ba2b57b35348.png">
 
 ### 6. Make your tests deterministic
 Your tests should not depend on each other. It goes without saying, but for your tests to be deterministic, you want to ensure that your tests don't depend on each other. Each test case should be independent of the other and should be able to pass on its own.
+
 <img width="452" alt="image" src="https://user-images.githubusercontent.com/9147189/223621914-6c54f360-3320-4899-b9d0-36520bad7986.png">
 
 ### 7. Don’t duplicate implementation logic
 You might copy the same flaws in the logic over to your test suite which means your test suite will pass, but not because it is working correctly. Rather, it contains the same bug as your function. Always test the outcomes, not the implementation.
+
 <img width="389" alt="image" src="https://user-images.githubusercontent.com/9147189/223622073-d09db0ee-fdcc-4a92-a92b-dd6bdc3bdd01.png">
 
 ### 8. Run your tests as part of your deployment
 Run your test suite before each deployment to ensure you didn't accidentally break any functionality. That way, you can ensure that no bugs are released into a test/production environment for parts of your application that are already covered by tests.
+
 <img width="402" alt="image" src="https://user-images.githubusercontent.com/9147189/223622151-95964da4-f024-4851-a933-ad05ab79fe18.png">
 
 ## Author
