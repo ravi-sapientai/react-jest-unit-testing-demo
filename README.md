@@ -78,7 +78,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 * Unit testing is a testing method that tests an individual unit of software in isolation. 
 * Unit testing for React Apps means testing an individual React Component.
 
-“Unit testing is a great discipline, which can lead to 40% – 80% reductions in bug density.” - Eric Elliotte
+“***Unit testing is a great discipline, which can lead to 40% – 80% reductions in bug density.***” - Eric Elliotte
 
 ## The Test Pyramid (By Martin Fowler)
 ![](https://martinfowler.com/articles/practical-test-pyramid/testPyramid.png)
