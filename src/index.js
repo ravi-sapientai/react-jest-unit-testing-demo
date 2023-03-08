@@ -2,12 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Counter from './Counter';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+  </React.StrictMode>
+);
+const count = ReactDOM.createRoot(document.getElementById('count'));
+count.render(
+  <React.StrictMode>
+    <Counter />
   </React.StrictMode>
 );
 
