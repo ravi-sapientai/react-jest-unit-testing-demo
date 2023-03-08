@@ -104,6 +104,7 @@ When bugs are detected at an early stage, through unit testing, they can be fixe
 
 ### 1. Use one test file per component
 Separate different tests into different files to make them well separated, keep the files slim, and make them easily maintainable.
+
 <img width="280" alt="image" src="https://user-images.githubusercontent.com/9147189/223621057-ea8e1b8a-c2f2-4f38-9baa-0b4f553a09d9.png">
 
 ### 2. Organize your tests with ***describe*** and ***test/it***
